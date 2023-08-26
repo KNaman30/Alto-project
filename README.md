@@ -28,3 +28,17 @@ note:- only for tf 2.11 and above on windows
 
 alternate:-
 1. roboflow autoML-https://app.roboflow.com/thapar-university-patiala/alto/2
+   
+from roboflow import Roboflow
+rf = Roboflow(api_key="MPKQuza7j4ys2rFsjtVb")
+project = rf.workspace().project("alto")
+model = project.version(2).model
+
+# infer on a local image
+print(model.predict("your_image.jpg", confidence=40, overlap=30).json())
+
+# visualize your prediction
+# model.predict("your_image.jpg", confidence=40, overlap=30).save("prediction.jpg")
+
+# infer on an image hosted elsewhere
+# print(model.predict("URL_OF_YOUR_IMAGE", hosted=True, confidence=40, overlap=30).json())
