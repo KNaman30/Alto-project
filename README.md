@@ -10,4 +10,5 @@ pi 4 and global shutter camera along with camera lens for detection of almonds. 
 camera and then get segregated by action of motor. Our next step in this project is to design a mechanical model for segregation which is under process. This Project was included under the summer internships organized
 by experiential learning center(ELC), Thapar University, Patiala in
 the month of june and july 2023. I also received a certificate for doing internship under ELC. although this internship has completed
-but the project is still going on. Drive link for project: https://drive.google.com/drive/folders/1sjS_RJzBdHUvsUVkVgpDmdGct_9FBxtI?usp=sharing
+but the project is still going on. 
+Drive link for project: https://drive.google.com/drive/folders/1sjS_RJzBdHUvsUVkVgpDmdGct_9FBxtI?usp=sharing
