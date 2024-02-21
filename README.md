@@ -1,7 +1,7 @@
 # Alto-project
 Advanced learning techniques for almond sorting and optimization
 
-nd optimization(ongoing)
+
 It is an ongoing project which aims in sorting almonds based on
 sorting almonds based on quality and looks. firstly we detect the
 almonds based on quality in two categories- either good or bad by
